@@ -1,35 +1,34 @@
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
     return (
         <div className='Navbar'>
 
-            {/* <Link
+            <Link
+                className='Link' to='/'>
+                <a>home</a>
+            </Link>
+
+            <Link
                 className='Link' to='/about'>
-                <a>About</a>
+                <a>about</a>
             </Link>
 
             <Link
-                className='Link' to='/still-gallery'>
-                <a>Photos</a>
+                className='Link' to='/photos'>
+                <a>photos</a>
             </Link>
 
             <Link
-                className='Link' to='/moving-gallery'>
-                <a>Hours</a>
+                className='Link' to='/hours'>
+                <a>hours & location</a>
             </Link>
 
             <Link
                 className='Link' to='/contact'>
-                <a>Contact</a>
-            </Link> */}
-
-            <a>about</a>
-            <a>photos</a>
-            <a>hours</a>
-            <a>contact</a>
-
+                <a>contact</a>
+            </Link>
 
         </div>
     )
