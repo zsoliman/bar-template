@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header {
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 1.5em;
+}
+
+.Header h2 {
+  font-family: 'Dancing Script', cursive;
 }
 
 .Navbar {
