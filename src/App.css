@@ -19,7 +19,7 @@
   width: 45%;
 }
 
-.EnterButton {
+/* .EnterButton {
   color: white;
   background-color: black;
   font-size: 1.5em;
@@ -30,7 +30,7 @@
   border: none;
   cursor: pointer;
   font-family: 'Dancing Script', cursive;
-}
+} */
 
 .Footer {
   font-size: 1em;
@@ -53,6 +53,23 @@
 .Home h2 {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
+}
+
+.HomeBody {
+  display: flex;
+  justify-content: center;
+
+}
+
+.HomeBody h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.2em;
+  margin-top: 2em;
+}
+
+.HomeImg {
+  margin: 2em;
+  width: 65%;
 }
 
 .Link {
