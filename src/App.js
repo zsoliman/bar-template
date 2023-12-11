@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './components/Home';
-import Body from './components/Body';
 import About from './components/About';
+import Contact from './components/Contact';
 
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
@@ -23,8 +23,8 @@ function App() {
           />
 
           <Route
-            path='/welcome'
-            element={<Body />}
+            path='/contact'
+            element={<Contact />}
           />
 
         </Routes>
