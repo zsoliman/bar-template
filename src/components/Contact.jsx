@@ -15,8 +15,6 @@ const Contact = () => {
                 <h2>We Do Events !</h2>
                 <h3>call, text, email, fax, carrier pigeon to plan your next event</h3>
 
-
-
             </div>
             <Footer />
         </div>

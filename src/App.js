@@ -2,6 +2,7 @@ import './App.css';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Photos from './components/Photos';
 
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
@@ -25,6 +26,11 @@ function App() {
           <Route
             path='/contact'
             element={<Contact />}
+          />
+
+          <Route
+            path='/photos'
+            element={<Photos />}
           />
 
         </Routes>
