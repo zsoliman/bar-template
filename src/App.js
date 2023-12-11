@@ -3,6 +3,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Photos from './components/Photos';
+import Hours from './components/Hours';
 
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
@@ -31,6 +32,11 @@ function App() {
           <Route
             path='/photos'
             element={<Photos />}
+          />
+
+          <Route
+            path='/hours'
+            element={<Hours />}
           />
 
         </Routes>
