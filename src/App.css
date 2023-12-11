@@ -3,6 +3,22 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.AboutBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.AboutImg {
+  margin: 2em;
+  width: 45%;
+}
+
+.AboutText {
+  margin: 2em;
+  width: 45%;
+}
+
 .EnterButton {
   color: white;
   background-color: black;
